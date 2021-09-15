@@ -1,6 +1,4 @@
 import { auth } from "./../config/firebase-config";
-import { facebookProvider } from "../config/authmethod";
-import { FacebookAuthProvider } from "firebase/auth";
 
 const socialMediaAuth = (provider) => {
   return auth
